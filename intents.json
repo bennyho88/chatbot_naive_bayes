@@ -1,0 +1,117 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["Hi", "Hey", "Hello", "Hey there", "Hello restaurant Taiwan"],
+      "responses": ["Hello and welcome to restaurant Taiwan", "Hey there", "Hi, how can I help you?", "Welcome to restaurant Taiwan, I am your personal assistant. How can I help you?"]
+    },
+    {
+      "tag": "openinghours",
+      "patterns": ["what are the opening hours?", "When is the restaurant closed?", "Could you please give me the opening hours of the restaurant?", "When is the restaurant open?"],
+      "responses": ["The restaurant is open from Thursday-Sunday from 5pm-10:30pm"]
+    },
+    {
+      "tag": "payments",
+      "patterns": ["Can i pay with credit card", "Cash", "Google Pay", "Apple Pay", "AMEX", "Debit", "Paypal", "what are the payment methods?"],
+      "responses": ["We accept the following payment methods: Cash, VISA, Mastercard"]
+    },
+    {
+      "tag": "reservation",
+      "patterns": ["I want to make a reservation", "Can you please help me to make a reservation?", "Would you help me to make a reservation?"],
+      "responses": ["Sure, for how many people would you like to make a reservation?"]
+    },
+    {
+      "tag": "makereservation",
+      "patterns": ["I would like to make a reservation for 2 persons", "I would like to make a reservation for 3 persons", "i would like to make a reservation for 4 persons", "I would like to make a reservation for 4 persons", "1", "2", "3", "4","5","6"],
+      "responses": ["The reservation has been made"]
+    },
+    {
+      "tag": "placeorder",
+      "patterns": ["I want food", "I want to order food asap", "Can you please take my order for food?", "Take my order please", "I want to place an order for Chinese food", "I want to place an order", "Would you please help me to order food?", "Can you please order food for me"],
+      "responses": ["Sure, what would you like to order today?", "Definitely, what would you like to have today?", "Certainly, I'll try to help you with that. What are you feeling like eating today?"]
+    },
+    {
+      "tag": "order",
+      "patterns": ["I want 1 loempia and 2 nasi goreng", "1 loempia and 2 nasi goreng", "I want 2 tomatensoep and 1 nasi goreng met kip", "I want", "I would like to have", "I would like to order food"],
+      "responses": ["Okay, your order has been confirmed."]
+    },
+    {
+      "tag": "location",
+      "patterns": ["where is your restaurant?", "location", "locate", "map", "train", "car", "transport", "What is the address of the restaurant?", "What is the location of the restaurant?"],
+      "responses": ["The address of the restaurant is Oude Steenweg 65, 2530 Boechout. Public transport is convenient as it is only a 5min walk."]
+    },
+    {
+      "tag": "userthanks",
+      "patterns": ["well thank you", "ok thank you", "Thank you so much", "Thanks a lot", "Thank you"],
+      "responses": ["I'm glad to be able to help you, see you next time!", "Bye! Have a nice day!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "see you", "see ya"],
+      "responses": ["We hope you are satisfied with our service. Have a good day!", "We are looking forward to welcome you again in our restaurant"]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["How can I contact you?", "How can I find more information?"],
+      "responses": ["For more information please contact us by phone 034559544 or email restauranttaiwant@gmail.be"]
+    },
+    {
+      "tag": "soupitems",
+      "patterns": ["Could you please provide me the soup dishes?", "Can you give me the soup dishes", "Which are the soup dishes?", "What are the soup dishes?"],
+      "responses":
+      ["Here is a list of the soup dishes:\n\n - Champignons met bamboesoep: 3.9 euro,\n- Tomatensoep: 3.9 euro,\n- Kippenleversoep met groenten: 4.5 euro,\n- Pikante soep: 4.5 euro,\n- Chinese champignonsoep: 4.5 euro,\n- Thailandse soep: 5.5 euro,\n- Aspergesoep met krab: 5.5 euro,\n- Haaievinnensoep: 5.5 euro,\n- Kippensoep: 4.5 euro,\n- Wan tan soep: 5.5 euro"]
+    },
+    {
+      "tag": "appetizeritems",
+      "patterns": ["Could you please provide me the appetizer dishes?", "Can you give me the appetizer dishes", "Which are the appetizer dishes?", "What are the appetizers?"],
+      "responses":
+      ["Here is a list of the appetizer dishes:\n\n - loempia met kip: 5.5 euro,\n- loempia met garnalen: 5.7 euro,\n- loempia met krab: 6 euro,\n- kippensate: 7 euro,\n- chinees voorgerecht: 8 euro,\n- kroepoek: 3.9 euro,\n- gebakken varkensribbetjes in lookboter: 8 euro,\n- gebakken kikkerbilletjes in lookboter: 9.5 euro,\n- gefrituurde wan tan: 7.5 euro,\n- dim sum: 9.5 euro"]
+    },
+    {
+      "tag": "poultryitems",
+      "patterns": ["Could you please provide me the poultry dishes?", "Can you give me the poultry dishes", "Which are the poultry dishes?", "What are the poultry dishes?"],
+      "responses":
+      ["Here is a list of the poultry dishes:\n\n - kippenfilet met tomatensaus: 14 euro,\n- kippenfilet met currysaus: 14 euro,\n- kippenfilet met diverse groenten: 14 euro,\n- kippensteak met champignons: 14 euro,\n- kip met ananas en zoetzure saus: 14 euro,\n- kip op 3 wijzen: 33 euro,\n- kippenfilet met ananas en groenten: 14 euro,\n- kippenfilet met chinese champignons: 14.5 euro,\n- gefrituurde kippenblokjes: 14 euro,\n- omelet met kip: 14 euro"]
+    },
+    {
+      "tag": "riceitems",
+      "patterns": ["Could you please provide me the rice dishes?", "Can you give me the rice dishes", "Which are the rice dishes?", "What are the rice dishes?"],
+      "responses":
+      ["Here is a list of the rice dishes:\n\n - nasi goreng special: 14.5 euro,\n- nasi goreng met kip: 13 euro,\n- nasi goreng met varkensvlees: 13 euro,\n- nasi goreng met chinese garnalen: 17 euro,\n- nasi goreng met krab: 17 euro,\n- nasi goreng met kleine garnalen: 14.5 euro"]
+    },
+    {
+      "tag": "specialitiesitems",
+      "patterns": ["Could you please provide me the specialities?", "Can you give me the specialities", "Which are the specialities?", "What are the specialities?"],
+      "responses":
+      ["Here is a list of the specialities:\n\n - rundsvlees op ijzeren plaat: 17 euro,\n- kippenfilet op ijzeren plaat: 16 euro,\n- chinese garnalen op ijzeren plaat: 20 euro,\n- kikkerbilletjes in potje op z'n chinees: 18 euro,\n- gamba's in curryroomsays: 21 euro,\n- varkensribbetjes op kantonese wijze: 16 euro,\n- vlees op z'n sechuan: 15 euro,\n- chop choy taiwan: 17 euro,\n- kippenfilet met curry: 15 euro,\n- nasi goreng taiwan: 17 euro,\n- tongfilet met ananas en zoetzure saus: 20 euro,\n- tongfilet in curryroomsaus: 20 euro,\n- 1/2 eend met ananas en currysaus: 17 euro,\n- 1/2 eend met ananas en zoetzure saus: 17 euro,\n- nasi goreng met kip en ananas: 15 euro"]
+    },
+    {
+      "tag": "spicyitems",
+      "patterns": ["Could you provide me the spicy dishes", "Can you provide me the spicy dishes?", "Which are the spicy dishes?", "Are there any spicy dishes?", "Which are the spicy dishes?"],
+      "responses": ["Here is a list of the spicy dishes:\n\n - pikante soep: 4.5 euro,\n - thailandse soep: 5.5 euro,\n - kippenfilet met currysaus: 14 euro,\n - gamba's in curryroomsaus: 21 euro,\n - vlees op z'n sechuan: 15 euro,\n - tongfilet in curryroomsaus: 20 euro,\n - 1/2 eend met ananas en currysaus: 17 euro"]
+    },
+    {
+      "tag": "vegetarianitems",
+      "patterns": ["Could you provide me the vegetarian dishes", "Can you provide me the vegetarian dishes?", "Which are the vegetarian dishes?"],
+      "responses": ["Most dishes can be made vegetarion, please ask staff for more information."]
+    },
+    {"tag": "alcohol",
+      "patterns": ["alcohol", "beer", "Cocktails", "wine", "spirits", "liquor", "drinks"],
+      "responses": ["We serve alcoholic beverages from 5pm, to consume our alcoholic beverages you have to be at least 18 years old"]
+    },
+    {"tag": "delivery",
+      "patterns": ["ordering", "home", "delivery", "Do you deliver food?"],
+      "responses": ["Food can not be delivered to your home."]
+    },
+    {
+      "tag": "menu",
+      "patterns": ["menu", "Could you provide me the menu?", "Can I see the menu?", "What is the menu?"],
+      "responses": ["As our menu is big, you can take a look in our menu on the website! http://restauranttaiwan.be/menu/ "]
+    },
+    {
+      "tag": "seats",
+      "patterns": ["How big is the restaurant?", "How many seats", "seats"],
+      "responses": ["In total we have 62 seats in the restaurant"]
+    }
+  ]
+}
